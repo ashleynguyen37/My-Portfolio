@@ -24,6 +24,7 @@ const Experience = () => {
             className="flex flex-col justify-between text-black dark:text-white border border-neutral-200 dark:border-slate-800"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-5 gap-4 flex-1">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={card.thumbnail}
                 alt={card.thumbnail}

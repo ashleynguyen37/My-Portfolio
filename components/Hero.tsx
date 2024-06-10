@@ -15,13 +15,13 @@ const Hero = () => {
             Welcome to my portfolio!
           </p>
           <TextGenerateEffect
-            words="Hi! I'm Ashley, a Software Developer based in Houston, Texas."
+            words="Hi! I&apos;m Ashley, a Software Developer based in Houston, Texas."
             className="text-left text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             I am a full stack developer with 2 years of experience in JavaScript (HTML, CSS, React.js, etc) and with 1 year experience in Python.
-            Please reach out if you'd like to learn more!
+            Please reach out if you&apos;d like to learn more!
           </p>
 
           <a href="#about">
@@ -36,6 +36,7 @@ const Hero = () => {
 
         <div className={styles.heroImg}>
           {/* Replace the image path below with your actual image */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="skills/meCircle.png" alt="Your Image"  className="max-w-full h-auto" />
         </div>
       </div>

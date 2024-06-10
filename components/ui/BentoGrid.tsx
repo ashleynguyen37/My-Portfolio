@@ -83,6 +83,7 @@ export const BentoGridItem = ({
       }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <div className="w-full h-full absolute">
           {img && (
             <img
@@ -92,9 +93,8 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        <div
-          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"}`}
-        >
+        <div className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"}`}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           {spareImg && (
             <img
               src={spareImg}
@@ -102,7 +102,7 @@ export const BentoGridItem = ({
               className="object-cover object-center w-full h-full"
             />
           )}
-        </div>
+      </div>
         {id === 6 && (
           <BackgroundGradientAnimation>
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>

@@ -32,6 +32,7 @@ const RecentProjects = () => {
                                 {des}
                         </CardItem>
                         <CardItem translateZ="100" className="w-full mt-4">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img 
                             src={img}
                             height="1000"
@@ -51,6 +52,7 @@ const RecentProjects = () => {
                                             transform: `translateX(-${5 * index + 2}px)`,
                                         }}
                                         >
+                                            {/* eslint-disable-next-line @next/next/no-img-element */}
                                         <img src={icon} alt="icon5" className="p-2" />
                                     </div>
                                  ))}
